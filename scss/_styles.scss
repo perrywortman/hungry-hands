@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+	cursor: url('../img/ship.png'), default;
+	a {
+		color: yellow;
+		text-transform: uppercase;
+		text-decoration: none;
+		cursor: url('../img/ship.png'), default;
+		&:hover, :visited, :focus {
+			color: yellow;
+			cursor: url('../img/ship.png'), default;
+		}
+	}
+	#main-content {
+		position: absolute;
+		top: 20%;
+		width: 100%;
+		-webkit-perspective: 30px;
+		perspective: 30px;
+		h1 {
+			font-family: "Yagiza";
+			font-size: 96px;
+			color: yellow;
+			text-transform: uppercase;
+			text-align: center;
+			text-shadow: 0px -5px 25px navy;
+			-webkit-transform: rotateX(-5deg);
+			transform: rotateX(-5deg);
+		}
+	}
+	.top {
+		position: absolute;
+		top: 0%;
+		width: 100%;
+		p, h2 {
+			font-family: "Retro Computer";
+			color: yellow;		
+		}
+	}
+	#player-one {
+		p, h2 {
+			text-align: left;
+			margin-left: 32px;
+		}
+	}
+	#high-score {
+		p, h2 {
+			text-align: center;
+		}
+	}
+	#player-two {
+		p, h2 {
+			text-align: right;
+			margin-right: 32px;
+		}
+	}
+	#menu {
+		position: absolute;
+		top: 60%;
+		width: 100%;
+		h2 {
+			font-family: "Retro Computer";
+			font-size: 32px;
+			color: yellow;
+			text-align: center;
+			margin: 0;
+		}
+	}
+}
